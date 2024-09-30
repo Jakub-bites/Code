@@ -1,4 +1,4 @@
-# Virus
+# Vírus
 ### Virus.bat
 Počká 10 Minút a potom minimalizuje všetky okná a ukoncí explorer následne spusti dialog.bat.
 ### dialog.bat
