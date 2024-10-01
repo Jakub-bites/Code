@@ -1,5 +1,3 @@
 # Vírus
 ### Virus.bat
-Počká 10 Minút a potom minimalizuje všetky okná a ukoncí explorer následne spusti dialog.bat.
-### dialog.bat
-Povie ze je Váš počítač nakazený vírusom a opýta sa na heslo, ktoré spustí explorer.
+Minimalizuje všetky okná okrem seba a ukoncčí explorer. Následne spusti sa napíše že Váš počítač bol nakazený vírusom a zadajte heslo na odblokovanie počítača (Heslo: 0000). Ak nezadas spravne tak ti vypise ze heslo je zlé a musiš počkať 5 sekúnd. Ak ano tak zapne explorer.
