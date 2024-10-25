@@ -7,4 +7,4 @@ Dá sa nastaviť aj sila komprimácie.
 A môžeš si aj určiť názov zálohy.
 
 
-Ak chcete získat instaler pre 64bit Windows, extrahujte súbor: **"Záloha-1.3.1-Setup64.exe"**
+Ak chcete získat instaler pre 64bit Windows, otvorte súbor: **"Záloha-1.3.1-Setup64.exe"**
