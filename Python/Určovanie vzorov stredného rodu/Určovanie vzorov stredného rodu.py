@@ -9,29 +9,25 @@ time.sleep(1)
 print('UPOZORNENIE! Slová sa musia zadávat v základnom tvare')
 print('')
 time.sleep(2)
-print('Napíšte predposledné písmeno slova ktoreho chcete určiť vzor a stlačte ENTER')
+print('Zadajte slovo')
 time.sleep(1)
-predposledné_pismeno = input('>>>')
-time.sleep(2)
-print('Napíšte posledné písmeno slova ktoreho chcete určiť vzor a stlačte ENTER')
-time.sleep(1)
-posledné_písmeno = input('>>>')
+slovo = input('>>>')
 time.sleep(4)
-if predposledné_pismeno == 'U':
-    if posledné_písmeno == 'M':
+if slovo[-2] == 'U':
+    if slovo[-1] == 'M':
         print('Vzor slova je MESTO')
         exit()
-if posledné_písmeno == 'O':
+if slovo[-1] == 'O':
     print('Vzor slova je MESTO')
     exit()
-if predposledné_pismeno == 'I':
-    if posledné_písmeno == 'E':
-        print('Vzor slova je VÝSVEDČENIE')
+if slovo[-2] == 'I':
+    if slovo[-1] == 'E':
+        print('Vzor slova je VYSVEDČENIE')
         exit()
-if posledné_písmeno == 'E' :
+if slovo[-1] == 'E' :
     print('Vzor slova je SRDCE')
     exit()
-if posledné_písmeno == 'A':
+if slovo[-1] == 'A':
     print('Vzor slova je DIEVČA')
     exit()
 print('Toto slovo určite nieje stredného rodu.')
