@@ -1,2 +1,2 @@
 # Python
-<p>Sem nahrávam súbory naprogramované v jazyku Python.</p>
+I will upload my python programs to this folder.
